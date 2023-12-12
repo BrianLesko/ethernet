@@ -11,6 +11,7 @@ class ethernet:
         self.IP = IP
         self.PORT = PORT
         self.s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        # TCP is a connection-oriented protocol, meaning it requires a connection to be established between the client and the server before data can be sent.
 
     def connect(self):
         messages = []
