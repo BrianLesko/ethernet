@@ -1,6 +1,6 @@
 # Ethernet Communication in Python
 
-This code implements serial communication with an arduino. It is based on pyserial. Ive been calling it a wrapper around the pyserial library and have created it to match another wrapper for the socket library - used for ethernet communication.
+This code implements ethernet communication (TCP) with an external device. It is based on the socket library. 
 
 &nbsp;
 
